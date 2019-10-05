@@ -99,6 +99,7 @@ function saveGame(){
 // clicking the save button after loading the game sends patch request
 
 // https://github.com/learn-co-curriculum/js-tictactoe-rails-api/blob/solution/app/assets/javascripts/tictactoe.js
+
 //function saveGame() {
 //  var state = [];
 //  var gameData;
