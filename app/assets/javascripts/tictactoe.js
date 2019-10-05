@@ -98,6 +98,35 @@ function saveGame(){
 // .toArray - retrieve all the elements contained in the jQuery set, as an array.
 // clicking the save button after loading the game sends patch request
 
+// https://github.com/learn-co-curriculum/js-tictactoe-rails-api/blob/solution/app/assets/javascripts/tictactoe.js
+
+//function saveGame() {
+//  var state = [];
+//  var gameData;
+
+//  $('td').text((index, square) => {
+//    state.push(square);
+//  });
+
+//  gameData = { state: state };
+
+//  if (currentGame) {
+//    $.ajax({
+//      type: 'PATCH',
+//      url: `/games/${currentGame}`,
+//      data: gameData
+//    });
+//  } else {
+//    $.post('/games', gameData, function(game) {
+//      currentGame = game.data.id;
+//      $('#games').append(`<button id="gameid-${game.data.id}">${game.data.id}</button><br>`);
+//      $("#gameid-" + game.data.id).on('click', () => reloadGame(game.data.id));
+//    });
+//  }
+//}
+
+
+
 function clearGame(){
  $('td').empty();
  turn = 0;
