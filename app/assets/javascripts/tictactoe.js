@@ -125,16 +125,6 @@ function saveGame(){
 
 
 
-
-
-
-
-
-
-
-
-
-
 function clearGame(){
  $('td').empty();
  turn = 0;
