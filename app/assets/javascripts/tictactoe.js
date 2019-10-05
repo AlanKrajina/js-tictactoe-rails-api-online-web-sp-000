@@ -97,6 +97,7 @@ function saveGame(){
 }
 // .toArray - retrieve all the elements contained in the jQuery set, as an array.
 // clicking the save button after loading the game sends patch request
+
 function saveGame() {
   var state = [];
   var gameData;
